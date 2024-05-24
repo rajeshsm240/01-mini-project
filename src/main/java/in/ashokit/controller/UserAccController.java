@@ -69,7 +69,7 @@ public class UserAccController {
 		if("Y".equals(status)) {
 			model.addAttribute("msg", "User Account activated");
 		}else {
-			model.addAttribute("msg","User Account Deactivated");
+			model.addAttribute("msg","User Account Deactivated ");
 		}
 		
 		return "forward:/users";
